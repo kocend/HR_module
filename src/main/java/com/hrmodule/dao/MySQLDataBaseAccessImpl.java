@@ -27,7 +27,6 @@ public class MySQLDataBaseAccessImpl implements DataBaseAccessInterface {
         Employee emp = getEmployeeByID(ID);
         emp.setFirstName(employee.getFirstName());
         emp.setLastName(employee.getLastName());
-        emp.setPhoneNumber(employee.getPhoneNumber());
         emp.setCity(employee.getCity());
         emp.setStreet(employee.getStreet());
         emp.setNumber(employee.getNumber());
