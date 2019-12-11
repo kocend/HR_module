@@ -11,7 +11,7 @@ public class Employee implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
+    @Column(name = "id_pracownika")
     private Integer id;
 
     @Column(name = "imie")
